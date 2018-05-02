@@ -14,8 +14,8 @@ All the heavy lifting is done in install.sh.  I've done my best to make this scr
 If you submit updates and additions, that's really cool.  Please make sure your modifications to install.sh are also idempotent.  We want to be able to run `vagrant provision` safely at any time.
 
 ## Setup
-1. This vagrant config assumes your projects are all in sibling directories.  Open a terminal and cd to the parent directory in which all your projects live. `cd ~/Code`
-1. Clone this project into that directory. `git clone whatever`
+1. This vagrant config assumes your projects are all in sibling directories.  Open a terminal and cd to the parent directory in which all your projects live. `cd ~/Code` or something like that
+1. Clone this project into that directory. `git clone git@github.com:eimajenthat/vagrant-php5.3.10.git`
 1. Change directories into the new project. `cd vagrant-php5.3.10`
 1. Make a copy of vhost-example.conf in vhosts/ folder for each vhost you want. `cp vhost-example.conf vhosts/{{myvhost}}.conf`
 1. Edit your vhost files and fill in the placeholder values as appropriate.
